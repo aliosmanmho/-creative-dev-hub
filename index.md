@@ -27,3 +27,9 @@ Explore content by language:
 - [此内容是多语言开发者社区平台的一部分。](discussions/zh/)
 - [このコンテンツは、多言語対応の開発者コミュニティプラットフォームの一部です。](discussions/ja/)
 - [هذا](discussions/ar/)
+
+
+## 🛠 Contribution Resources
+
+- [Branch Naming Guide (English)](guidelines/en/git-branch-naming.md)
+- [All Languages](guidelines/)

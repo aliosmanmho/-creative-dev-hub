@@ -46,3 +46,8 @@ Whether you want to write a blog post in your native language, translate someone
 
 ---
 
+## 📌 Contribution Guides
+
+Looking to contribute? Start with our [Branch Naming Convention](guidelines/en/git-branch-naming.md) — available in [11 languages](guidelines/).
+
+---
