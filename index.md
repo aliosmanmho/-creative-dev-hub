@@ -12,24 +12,42 @@ JA: このコンテンツは、多言語対応の開発者コミュニティプ�
 AR: هذا المحتوى هو جزء من منصة مجتمعية متعددة اللغات للمطورين.
 -->
 
-# 🧭 Creative Dev Hub – Home
+# 🌐 Welcome to Creative Dev Hub
 
-Explore content by language:
+**Creative Dev Hub** is a multilingual collaboration space for developers to share creative content beyond code — such as journals, discussions, and personal reflections — all version-controlled through GitHub.
 
-- [This](discussions/en/)
-- [Bu](discussions/tr/)
-- [Este](discussions/es/)
-- [Dieser](discussions/de/)
-- [Ce](discussions/fr/)
-- [Este](discussions/pt/)
-- [Questo](discussions/it/)
-- [Этот](discussions/ru/)
-- [此内容是多语言开发者社区平台的一部分。](discussions/zh/)
-- [このコンテンツは、多言語対応の開発者コミュニティプラットフォームの一部です。](discussions/ja/)
-- [هذا](discussions/ar/)
+---
 
+## 🌍 Explore Discussions by Language
+
+| Language     | Link                                  |
+|--------------|---------------------------------------|
+| English      | [Go to English Discussions](discussions/en/) |
+| Türkçe       | [Türkçe Tartışmalara Git](discussions/tr/)   |
+| Español      | [Ir a Discusiones en Español](discussions/es/) |
+| Deutsch      | [Zur deutschen Diskussion](discussions/de/)  |
+| Français     | [Voir les discussions en français](discussions/fr/) |
+| Português    | [Ir para Discussões em Português](discussions/pt/) |
+| Italiano     | [Vai alle discussioni in italiano](discussions/it/) |
+| Русский      | [Перейти к обсуждениям на русском](discussions/ru/) |
+| 中文          | [查看中文讨论](discussions/zh/) |
+| 日本語        | [日本語のディスカッションへ](discussions/ja/) |
+| العربية       | [اذهب إلى المناقشات بالعربية](discussions/ar/) |
+
+---
 
 ## 🛠 Contribution Resources
 
-- [Branch Naming Guide (English)](guidelines/en/git-branch-naming.md)
-- [All Languages](guidelines/)
+- 📖 [Branch Naming Guide (English)](guidelines/en/git-branch-naming.md)
+- 🌐 [All Contribution Guides (All Languages)](guidelines/)
+
+> Want to contribute? Fork the repo, create your content under your language folder, and open a pull request. It's that easy!
+
+---
+
+## 🌱 New Here?
+
+We recommend starting with the English contribution guides and reviewing our [branch structure](guidelines/en/git-branch-naming.md). You can write in any language and collaborate with developers from around the world.
+
+---
+
