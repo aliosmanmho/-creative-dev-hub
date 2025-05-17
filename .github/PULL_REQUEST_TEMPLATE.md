@@ -12,14 +12,28 @@ JA: このコンテンツは、多言語対応の開発者コミュニティプ�
 AR: هذا المحتوى هو جزء من منصة مجتمعية متعددة اللغات للمطورين.
 -->
 
-## Contribution Type
-- [ ] Blog Post
-- [ ] Discussion
-- [ ] Journal
-- [ ] Book Club
-- [ ] Mentorship
-- [ ] Culture / Fun
-- [ ] Hackathon / Challenge
+# 🚀 Pull Request Submission Template
 
-## Summary
-Please describe what this content is about and which language it's written in.
+Thank you for your contribution to **Creative Dev Hub**!  
+Please complete the fields below to help us review and publish your content effectively.
+
+---
+
+## 📂 Contribution Type
+
+_Select the most appropriate content category:_
+
+- [ ] 📝 Blog Post — A technical article, tutorial, or thought piece
+- [ ] 💬 Discussion — A markdown-based idea, debate, or opinion
+- [ ] 📖 Journal — A personal learning log or experience summary
+- [ ] 📚 Book Club — Notes, highlights, or reflections from a reading
+- [ ] 🧭 Mentorship — Guides, resources, or learning paths
+- [ ] 🎉 Culture / Fun — Developer humor, quotes, traditions, creativity
+- [ ] 🧠 Hackathon / Challenge — Creative community-driven content missions
+
+---
+
+## 🌍 Language
+
+Specify the language of the content. Choose from supported ISO codes (e.g., `en`, `tr`, `es`, etc.):
+
