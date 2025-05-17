@@ -1,24 +1,84 @@
 <!--
-EN: This content is part of a multilingual developer community platform.
-TR: Bu içerik çok dilli geliştirici topluluk platformunun bir parçasıdır.
-ES: Este contenido forma parte de una plataforma comunitaria multilingüe para desarrolladores.
-DE: Dieser Inhalt ist Teil einer mehrsprachigen Entwickler-Community-Plattform.
-FR: Ce contenu fait partie d'une plateforme communautaire multilingue pour les développeurs.
-PT: Este conteúdo faz parte de uma plataforma comunitária multilíngue para desenvolvedores.
-IT: Questo contenuto fa parte di una piattaforma comunitaria multilingue per sviluppatori.
-RU: Этот контент является частью многоязычной платформы сообщества разработчиков.
-ZH: 此内容是多语言开发者社区平台的一部分。
-JA: このコンテンツは、多言語対応の開発者コミュニティプラットフォームの一部です。
-AR: هذا المحتوى هو جزء من منصة مجتمعية متعددة اللغات للمطورين.
+EN: This document provides contribution guidelines for the Creative Dev Hub community.
+TR: Bu belge, Creative Dev Hub topluluğu için katkı yönergelerini içerir.
+ES: Este documento proporciona pautas de contribución para la comunidad de Creative Dev Hub.
+DE: Dieses Dokument enthält Beitragsrichtlinien für die Creative Dev Hub-Community.
+FR: Ce document fournit des lignes directrices pour contribuer à la communauté Creative Dev Hub.
+PT: Este documento fornece diretrizes de contribuição para a comunidade Creative Dev Hub.
+IT: Questo documento fornisce linee guida per contribuire alla community di Creative Dev Hub.
+RU: Этот документ содержит рекомендации по участию в сообществе Creative Dev Hub.
+ZH: 本文档提供了 Creative Dev Hub 社区的贡献指南。
+JA: このドキュメントは、Creative Dev Hub コミュニティの貢献ガイドラインを提供します。
+AR: توضح هذه الوثيقة إرشادات المساهمة في مجتمع Creative Dev Hub.
 -->
 
-# Contributing Guidelines
+# 🤝 Contributing Guidelines
 
-Thank you for considering a contribution! Please follow these steps:
+Thank you for your interest in contributing to **Creative Dev Hub** — a multilingual, community-driven platform where developers collaborate on non-code content that educates, inspires, and connects.
 
-1. Fork the repository
-2. Create content in the appropriate language folder
-3. Submit a Pull Request
-4. Participate in the review process
+We welcome contributors from all backgrounds and experience levels. Here's how to get started:
 
-Make sure your content is well-structured, respectful, and aligns with the community purpose.
+---
+
+## 📦 1. Fork the Repository
+
+Click the **Fork** button on the top right of the repository page to create your own copy where you can make changes freely.
+
+---
+
+## 🌍 2. Create Content in the Right Language Folder
+
+Navigate to the appropriate content category (e.g. `blog-posts`, `discussions`, `dev-journals`, etc.) and find the folder for your language (`en`, `tr`, `es`, etc.).
+
+Add your `.md` file in the correct location. Use meaningful filenames using `kebab-case` (e.g. `async-vs-threading.md`).
+
+---
+
+## ✍️ 3. Follow the Content Style Guidelines
+
+- Use clear and respectful language.
+- Markdown formatting is preferred. Use headers, lists, and code blocks for clarity.
+- Avoid overly technical jargon unless the content is meant for advanced readers.
+- Include metadata where appropriate (e.g. `<!-- EN: This content ... -->`).
+
+---
+
+## 🚀 4. Submit a Pull Request
+
+When your content is ready:
+1. Commit your changes with a meaningful message (e.g. `feat(blog): add async/await tutorial in Spanish`).
+2. Push to your fork.
+3. Open a Pull Request (PR) to the `main` branch of this repo.
+
+---
+
+## 🔍 5. Engage in the Review Process
+
+A maintainer or community member will review your PR. You might receive feedback or suggestions. Feel free to:
+- Reply with clarifications
+- Make changes and push them to your branch
+- Ask questions!
+
+All discussions are collaborative and respectful.
+
+---
+
+## ✅ 6. General Contribution Guidelines
+
+- One PR per topic/file is preferred.
+- Don't modify others' content without agreement unless fixing typos or formatting.
+- Always write in your **native or fluent** language.
+- Translations are welcome — just reference the original file in the translated version.
+- Respect cultural differences and community values.
+
+---
+
+## 🧠 Example Contribution Flow
+
+```bash
+git clone https://github.com/YOUR_USERNAME/creative-dev-hub.git
+cd creative-dev-hub
+# Add your content under the correct folder and language
+git add .
+git commit -m "feat(discussion): add REST vs GraphQL overview in German"
+git push origin main
