@@ -1,0 +1,39 @@
+name: 🌟 Content Suggestion
+description: Propose a new discussion topic, journal entry, or idea for Creative Dev Hub.
+title: "[idea] "
+labels: [content-idea]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: 📌 Topic Title
+      description: What is your suggested topic or theme?
+      placeholder: e.g., "Dark Mode vs Light Mode"
+  - type: textarea
+    id: summary
+    attributes:
+      label: 🧾 Description
+      description: |
+        Please describe your idea in English if possible.
+        You may optionally provide a brief note in your native language (e.g., Turkish below):
+
+        TR: Bu başlığın neden önemli olduğunu ve hangi yapıda yazılabileceğini açıklayın.
+  - type: dropdown
+    id: language
+    attributes:
+      label: 🌐 Suggested Language
+      description: In which language would you like this content to be written or contributed?
+      options:
+        - English
+        - Turkish
+        - Spanish
+        - German
+        - French
+        - Other
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ✅ Contributor Checklist
+      options:
+        - label: I have checked that a similar topic doesn't already exist
+        - label: I am willing to help create or review this content

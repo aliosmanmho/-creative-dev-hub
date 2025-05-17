@@ -1,0 +1,33 @@
+name: 📖 Journal Submission
+description: Share a personal or reflective developer experience entry.
+title: "[journal] "
+labels: [journal-entry]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: 📝 Entry Title
+      placeholder: e.g., "What I Learned from 30 Days of Pair Programming"
+  - type: textarea
+    id: summary
+    attributes:
+      label: 📄 Summary
+      description: Provide a short summary of your journal content and motivation.
+  - type: dropdown
+    id: language
+    attributes:
+      label: 🌐 Language
+      options:
+        - English
+        - Turkish
+        - Spanish
+        - German
+        - Other
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ✅ Submission Checklist
+      options:
+        - label: I have written this in my own words
+        - label: I placed the file under the correct language/journals/ folder
+        - label: I am okay with community members giving feedback

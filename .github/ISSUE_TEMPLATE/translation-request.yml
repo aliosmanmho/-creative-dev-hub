@@ -1,0 +1,20 @@
+name: 🔁 Translation Request
+description: Suggest an existing piece of content to be translated into another language.
+title: "[translation-request] "
+labels: [translation-request]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: 📄 Source File
+      placeholder: e.g., discussions/en/rest-vs-graphql.md
+  - type: input
+    id: target-language
+    attributes:
+      label: 🌍 Target Language
+      placeholder: e.g., Turkish
+  - type: textarea
+    id: notes
+    attributes:
+      label: 🧠 Notes or Special Considerations
+      description: Any cultural/contextual details to keep in mind while translating?

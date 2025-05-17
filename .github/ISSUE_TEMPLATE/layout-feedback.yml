@@ -1,0 +1,19 @@
+name: 🎨 Layout or UI Feedback
+description: Share your thoughts or suggestions about how the project looks and feels.
+title: "[layout-feedback] "
+labels: [feedback, layout]
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 💬 What would you like to improve?
+      placeholder: e.g., The homepage navigation is unclear in smaller screens...
+  - type: checkboxes
+    id: areas
+    attributes:
+      label: 🧭 Affected Areas
+      options:
+        - label: GitHub Pages layout
+        - label: Folder structure
+        - label: README or docs clarity
+        - label: Contribution process visibility

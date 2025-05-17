@@ -1,0 +1,23 @@
+name: 🌍 Language Support Request
+description: Suggest a new language to be added to the Creative Dev Hub structure.
+title: "[language-request] "
+labels: [language-request]
+body:
+  - type: input
+    id: language-name
+    attributes:
+      label: 🌐 Language Name
+      placeholder: e.g., Japanese
+  - type: textarea
+    id: why
+    attributes:
+      label: 💬 Why do you want this language added?
+      description: Describe the interest, need, or community motivation behind this request.
+      placeholder: We have multiple contributors interested in sharing content in this language.
+  - type: checkboxes
+    id: support
+    attributes:
+      label: ✅ Community Support
+      options:
+        - label: I can help maintain or moderate this language
+        - label: I know at least one other person who wants this

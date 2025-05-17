@@ -1,0 +1,29 @@
+name: 🐞 Bug Report
+description: Report a problem or unexpected behavior in the Creative Dev Hub content or structure.
+title: "[bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 🧯 What happened?
+      description: Please describe the bug clearly, including the language and section it occurred in.
+      placeholder: A broken link in the discussions/en folder...
+  - type: input
+    id: file
+    attributes:
+      label: 📄 Affected file/folder (if applicable)
+      placeholder: e.g., discussions/en/rest-vs-graphql.md
+  - type: textarea
+    id: expected
+    attributes:
+      label: 🧠 Expected behavior
+      placeholder: I expected the link to lead to the full article.
+  - type: dropdown
+    id: severity
+    attributes:
+      label: 🚨 Severity
+      options:
+        - Minor (just a typo or cosmetic issue)
+        - Moderate (content mismatch or outdated info)
+        - Critical (broken structure or loss of content)
