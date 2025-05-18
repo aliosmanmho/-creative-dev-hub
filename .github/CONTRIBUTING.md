@@ -11,6 +11,11 @@ ZH: 本文档提供了 Creative Dev Hub 社区的贡献指南。
 JA: このドキュメントは、Creative Dev Hub コミュニティの貢献ガイドラインを提供します。
 AR: توضح هذه الوثيقة إرشادات المساهمة في مجتمع Creative Dev Hub.
 -->
+### 🛠️ Contribution Flow
+
+![Contribution Flow](../assets/guides/pr-contribution-flow-en.png)
+
+---
 
 # 🤝 Contributing Guidelines
 
@@ -82,9 +87,3 @@ cd creative-dev-hub
 git add .
 git commit -m "feat(discussion): add REST vs GraphQL overview in German"
 git push origin main
-
----
-
-### 🛠️ Contribution Flow
-
-![Contribution Flow](../assets/guides/pr-contribution-flow-en.png)
