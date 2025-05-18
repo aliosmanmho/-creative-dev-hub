@@ -82,3 +82,9 @@ cd creative-dev-hub
 git add .
 git commit -m "feat(discussion): add REST vs GraphQL overview in German"
 git push origin main
+
+---
+
+### 🛠️ Contribution Flow
+
+![Contribution Flow](../assets/guides/pr-contribution-flow-en.png)
